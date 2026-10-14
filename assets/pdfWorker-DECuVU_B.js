@@ -1,1 +1,0 @@
-var e=new URL(`pdfWorker-BcE_NJAO.js`,import.meta.url).href;export{e as default};
