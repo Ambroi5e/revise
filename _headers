@@ -1,0 +1,7 @@
+# Cloudflare Pages: the service worker and the page must always be re-checked so updates reach everyone.
+/sw.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/
+  Cache-Control: no-cache
