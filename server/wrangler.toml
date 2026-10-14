@@ -7,9 +7,11 @@ compatibility_date = "2026-09-01"
 GOOGLE_CLIENT_ID = "332288904576-drks32sl90glk5b7sd8smhd8bgc9uemi.apps.googleusercontent.com"
 ALLOWED_ORIGINS = "https://ambroi5e.github.io,http://localhost:5173,http://127.0.0.1:5173"
 # Units per day: a light-model call costs 1, a Flash call 3.
-DAILY_UNITS = "400"
-ANON_DAILY_UNITS = "150"
-GLOBAL_DAILY_UNITS = "20000"
+# Set for the shared free Gemini quota (~60 Flash + 500 light calls a day, ~680 units) split
+# among about 10 students. With a paid key, raise them (e.g. 400 / 150 / 20000).
+DAILY_UNITS = "80"
+ANON_DAILY_UNITS = "40"
+GLOBAL_DAILY_UNITS = "680"
 
 [[d1_databases]]
 binding = "DB"
