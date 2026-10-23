@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ambroi5e.github.io/revise/sitemap.xml

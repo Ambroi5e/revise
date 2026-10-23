@@ -2,27 +2,74 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://accounts.google.com/gsi/client 'sha256-8hCxEbjUys6rXaMKVkar8QWe97Qh94lvjNuCYZqoY2Y='; style-src 'self' 'unsafe-inline' https://accounts.google.com/gsi/style; img-src 'self' data: blob: https://*.googleusercontent.com; media-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' blob: data: https://generativelanguage.googleapis.com https://www.googleapis.com https://oauth2.googleapis.com https://accounts.google.com https://*.supabase.co  http://localhost:* http://127.0.0.1:*; worker-src 'self' blob:; frame-src https://accounts.google.com; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
     <meta name="theme-color" content="#6d3bff" />
-    <link rel="apple-touch-icon" href="./icon-192.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Révise transforme tes cours en fiches sourcées, flashcards et plans de révision." />
-    <title>Révise</title>
+    <title>Révise · fiches sourcées, flashcards et planning de révision</title>
+    <meta name="description" content="Tes cours (PDF, Word, PowerPoint, photos) deviennent des fiches qui citent leurs pages, des flashcards et un planning. Gratuit, dans ton navigateur." />
+    <link rel="canonical" href="https://ambroi5e.github.io/revise/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Révise" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:url" content="https://ambroi5e.github.io/revise/" />
+    <meta property="og:title" content="Révise · tes cours deviennent des fiches sourcées" />
+    <meta property="og:description" content="Fiches qui citent la page de ton cours, flashcards et planning de révision. Gratuit, dans ton navigateur." />
+    <meta property="og:image" content="https://ambroi5e.github.io/revise/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Révise : tes cours deviennent des fiches sourcées, des flashcards et un planning. À côté, une fiche qui cite la page 12, une flashcard et une séance du planning." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Révise · tes cours deviennent des fiches sourcées" />
+    <meta name="twitter:description" content="Fiches qui citent la page de ton cours, flashcards et planning de révision. Gratuit, dans ton navigateur." />
+    <meta name="twitter:image" content="https://ambroi5e.github.io/revise/og-image.jpg" />
+    <meta name="twitter:image:alt" content="Révise : tes cours deviennent des fiches sourcées, des flashcards et un planning. À côté, une fiche qui cite la page 12, une flashcard et une séance du planning." />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Révise","description":"Tes cours (PDF, Word, PowerPoint, photos) deviennent des fiches qui citent leurs pages, des flashcards et un planning. Gratuit, dans ton navigateur.","url":"https://ambroi5e.github.io/revise/","image":"https://ambroi5e.github.io/revise/og-image.jpg","applicationCategory":"EducationalApplication","operatingSystem":"Web","inLanguage":["fr","en"],"isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}</script>
     <script>try{var t=localStorage.getItem('revise.theme');if(t&&t!=='auto')document.documentElement.dataset.theme=t}catch(e){}</script>
-    <script type="module" crossorigin src="./assets/index-IqDo610a.js"></script>
+    <!-- What Révise is, for search engines, link previews and browsers without JavaScript. React replaces it on its first render;
+         it only fades in if the app takes a while to start, so a quick start never flashes it. -->
+    <style>.boot{max-width:560px;color:var(--ink,#1d1b2e);font:16px/1.55 var(--font-body,system-ui,sans-serif);margin:0 auto;padding:12vh 16px 48px;animation:.5s ease-out .6s both boot-in}.boot svg{width:56px;height:56px;margin-bottom:18px;display:block}.boot h1{letter-spacing:-.03em;margin:0 0 10px;font-size:34px;line-height:1.1}.boot p,.boot li{color:var(--ink-2,#4a4760);margin:0 0 12px}.boot .boot-tag{color:var(--ink,#1d1b2e);font-size:19px;line-height:1.4}.boot ul{margin:0 0 16px;padding-left:20px}.boot li{margin-bottom:6px}.boot a{color:var(--pen-text,#5b2ee6)}@keyframes boot-in{0%{opacity:0}}</style>
+    <script type="module" crossorigin src="./assets/index-BCY2sl0N.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-C0FnF6B9.js">
     <link rel="modulepreload" crossorigin href="./assets/react-DiVRNtpo.js">
+    <link rel="modulepreload" crossorigin href="./assets/jsx-runtime-BdxMnOeJ.js">
     <link rel="modulepreload" crossorigin href="./assets/preload-helper-CRzLMJPS.js">
-    <link rel="modulepreload" crossorigin href="./assets/drive-DuCS1FD-.js">
-    <link rel="modulepreload" crossorigin href="./assets/settings-DYcX4HqA.js">
-    <link rel="modulepreload" crossorigin href="./assets/provider-BOMoATXa.js">
-    <link rel="modulepreload" crossorigin href="./assets/cite-B5QddlCM.js">
-    <link rel="modulepreload" crossorigin href="./assets/generate-D058XQTF.js">
-    <link rel="modulepreload" crossorigin href="./assets/chunking-Dcu9_8Ds.js">
-    <link rel="modulepreload" crossorigin href="./assets/extract-D2tnsuya.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-DLi382Yy.css">
+    <link rel="modulepreload" crossorigin href="./assets/import-wrapper-prod-Bt_Vhrvy.js">
+    <link rel="modulepreload" crossorigin href="./assets/db-29CdBBrM.js">
+    <link rel="modulepreload" crossorigin href="./assets/i18n-CD4k-30C.js">
+    <link rel="modulepreload" crossorigin href="./assets/dist-D5mf6Ibh.js">
+    <link rel="modulepreload" crossorigin href="./assets/stats-Bpkph_LD.js">
+    <link rel="modulepreload" crossorigin href="./assets/profile-Bhv7TG_N.js">
+    <link rel="modulepreload" crossorigin href="./assets/settings-DJ5Fm-mD.js">
+    <link rel="modulepreload" crossorigin href="./assets/drive-CGM1ESgm.js">
+    <link rel="modulepreload" crossorigin href="./assets/provider-Cjc4WJEy.js">
+    <link rel="modulepreload" crossorigin href="./assets/planner-57aexZoP.js">
+    <link rel="modulepreload" crossorigin href="./assets/cite-2gcDQUPb.js">
+    <link rel="modulepreload" crossorigin href="./assets/errata-8EXaHrbS.js">
+    <link rel="modulepreload" crossorigin href="./assets/quiz-C9hMK5qW.js">
+    <link rel="modulepreload" crossorigin href="./assets/generate-B5kkyyOH.js">
+    <link rel="modulepreload" crossorigin href="./assets/planData-7oBwBxwf.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-va9DNd6l.css">
   <link rel="manifest" href="./manifest.webmanifest"></head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <main class="boot" lang="fr">
+        <svg viewBox="0 0 512 512" aria-hidden="true"><defs><linearGradient id="boot-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d3bff"/><stop offset="1" stop-color="#b03ad8"/></linearGradient></defs><rect width="512" height="512" rx="112" fill="url(#boot-g)"/><rect x="128" y="96" width="232" height="300" rx="40" fill="#fff"/><path d="M176 180h136M176 236h88" stroke="#b9b3d6" stroke-width="22" stroke-linecap="round"/><path d="M168 300h150" stroke="#f3e64a" stroke-width="44" stroke-linecap="round"/><path d="M262 282l38 40 92-112" fill="none" stroke="#1d1b33" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h1>Révise</h1>
+        <p class="boot-tag">Tes cours deviennent des fiches sourcées, des flashcards et un planning de révision.</p>
+        <ul>
+          <li>Dépose tes PDF, Word, PowerPoint ou photos de tes notes : Révise les découpe en chapitres.</li>
+          <li>Chaque phrase d’une fiche renvoie à la page du cours d’où elle vient.</li>
+          <li>Des flashcards à répétition espacée et des examens blancs notés avec un barème.</li>
+          <li>Un planning jusqu’au jour de l’examen, et tes cartes aussi sur ton téléphone.</li>
+        </ul>
+        <p>Gratuit, dans ton navigateur : tes cours, tes fiches et tes cartes sont enregistrés sur ton appareil.</p>
+        <noscript><p>Révise a besoin de JavaScript pour fonctionner : active-le dans ton navigateur.</p></noscript>
+        <p><a href="./confidentialite.html">Confidentialité</a> · <a href="./conditions.html">Conditions d’utilisation</a></p>
+      </main>
+    </div>
   </body>
 </html>
