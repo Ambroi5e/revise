@@ -17,7 +17,7 @@ Révise is in beta: payments are in test mode and no card is charged.
 ## Plans
 
 - **Découverte**, €0: 1 active subject and 1 imported document; 3 AI generations (sheet, quiz or flashcards); flashcards, planner, grades and sync with your phone; the start of the library’s sheets.
-- **Premium**, €4.99/month, or €39.99/year (€3.33 a month), or an exam pass at €12.99 for 60 days, no renewal. 3-day free trial on subscriptions. Cancel in three clicks. Unlimited subjects and documents; AI sheets, flashcards and quizzes, with no generation limit; Marked mock exams and past-paper analysis; Podcasts, mind maps and questions to your course; Oral practice, videos and lecture recordings; The library’s sheets in full.
+- **Premium**, €39.99/year, that is €3.33 a month and €31.89 saved, at a price locked until you cancel. Or €5.99/month with no commitment (summer pause possible), or Express: €4.99 for 7 days on one subject, no renewal. 3-day free trial on subscriptions. Cancel in three clicks. Unlimited subjects and documents; AI sheets, flashcards and quizzes, with no generation limit; Marked mock exams and past-paper analysis; Podcasts, mind maps and questions to your course; Oral practice, videos and lecture recordings; The library’s sheets in full.
 
 ## Pages
 
@@ -27,11 +27,13 @@ Révise is in beta: payments are in test mode and no card is charged.
 
 ## FAQ
 
-- **Is Révise free?** To start, yes: the Découverte plan is free, with no card, and includes one subject, one document and 3 AI generations. Premium opens everything, from €4.99 a month.
+- **Is Révise free?** To start, yes: the Découverte plan is free, with no card, and includes one subject, one document and 3 AI generations. Premium opens everything, from €3.33 a month with the yearly plan.
 - **How does the free trial work?** Your card is asked for, but nothing is charged for 3 days. Cancel before the end and you pay nothing. An e-mail reminds you of its end date as soon as it starts. The trial is offered once per account.
 - **How do I cancel?** Settings, Subscription, “Cancel my subscription”: three clicks, no need to write to anyone. Premium stays open until the end of the period already paid, then nothing more is charged.
 - **What if Premium isn’t right for me?** Write to us within 7 days of your first payment: you’ll be refunded, no questions asked.
-- **What is the exam pass?** A single payment of €12.99 for 60 days of Premium, with no subscription or renewal: ideal for an exam period.
+- **What is Express?** A single payment of €4.99 for 7 days of Premium on one subject, with no subscription or renewal: for an exam coming up. Twice a semester at most. If you switch to yearly within 14 days, that €4.99 is taken off.
+- **Can I pause my subscription over the summer?** Yes, with the monthly subscription: up to 3 months without payment, once a year. Your data is kept, and you can still cancel at any time.
+- **I pay monthly: do I lose what I paid if I switch to yearly?** No. From your second monthly payment, what you paid over the last 12 months is taken off the yearly price.
 - **Are my courses sent anywhere?** Your courses stay on your device. Only the passages a task needs are sent to the AI (Google’s Gemini), and Révise doesn’t keep them.
 - **Is payment safe?** Payment goes through Stripe, which also handles invoices. Révise never sees your card number.
 - **Do I need to install anything?** No: Révise works in the browser, on computers and phones. You can add it to your home screen like an app.
