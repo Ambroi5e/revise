@@ -1,4 +1,30 @@
+# Révise welcomes search engines and AI assistants: the app, its pricing and legal pages are public.
+# A student's courses never reach this site: they stay on their own device.
 User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://ambroi5e.github.io/revise/sitemap.xml
