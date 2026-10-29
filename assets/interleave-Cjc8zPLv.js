@@ -1,0 +1,1 @@
+function e(e,t){let n=new Map;for(let r of e){let e=t(r);n.has(e)||n.set(e,[]),n.get(e).push(r)}let r=[],i;for(;r.length<e.length;){let e=[...n].filter(([,e])=>e.length).sort((e,t)=>t[1].length-e[1].length),[t,a]=e.find(([e])=>e!==i)??e[0];r.push(a.shift()),i=t}return r}export{e as interleave};
