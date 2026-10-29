@@ -34,6 +34,6 @@ Révise is in beta: payments are in test mode and no card is charged.
 - **What is Express?** A single payment of €4.99 for 7 days of Premium on one subject, with no subscription or renewal: for an exam coming up. Twice a semester at most. If you switch to yearly within 14 days, that €4.99 is taken off.
 - **Can I pause my subscription over the summer?** Yes, with the monthly subscription: up to 3 months without payment, once a year. Your data is kept, and you can still cancel at any time.
 - **I pay monthly: do I lose what I paid if I switch to yearly?** No. From your second monthly payment, what you paid over the last 12 months is taken off the yearly price.
-- **Are my courses sent anywhere?** Your courses stay on your device. Only the passages a task needs are sent to the AI (Google’s Gemini), and Révise doesn’t keep them.
+- **Are my courses sent anywhere?** Your courses stay on your device. Only the passages a task needs are sent to the AI, and Révise doesn’t keep them.
 - **Is payment safe?** Payment goes through Stripe, which also handles invoices. Révise never sees your card number.
 - **Do I need to install anything?** No: Révise works in the browser, on computers and phones. You can add it to your home screen like an app.

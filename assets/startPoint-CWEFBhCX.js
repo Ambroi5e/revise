@@ -1,0 +1,1 @@
+import{i as e,t}from"./db-ggyglRVm.js";var n=e=>`start:${e}`,r=t=>e(n(t),[]);function i(e){let t=new Map;for(let n of e)for(let e of n.items)t.set(e.chapterId,e.state);return t}async function a(){let e=new Set;for(let n of await t.prefs.where(`key`).startsWith(`start:`).toArray())for(let[t,r]of i(n.value))r!==`known`&&e.add(t);return e}export{r as n,a as r,i as t};
