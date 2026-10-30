@@ -6,7 +6,7 @@ self.addEventListener('notificationclick', (event) => {
     const wins = await self.clients.matchAll({ type: 'window', includeUncontrolled: true })
     const base = self.registration.scope
     for (const w of wins) {
-      if (w.url.startsWith(base)) { await w.focus(); w.navigate ? await w.navigate(base + '#' + route) : null; return }
+      if (w.url.startsWith(base)) { await w.focus(); if (w.navigate) await w.navigate(base + '#' + route); return }
     }
     await self.clients.openWindow(base + '#' + route)
   })())
